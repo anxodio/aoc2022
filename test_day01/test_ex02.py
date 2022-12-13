@@ -3,9 +3,9 @@ from typing import List, Iterable, Generator, Any
 from itertools import takewhile
 
 
-def get_most_calories(chunks_of_calories: Iterable[List[int]]) -> int:
+def get_three_most_calories(chunks_of_calories: Iterable[List[int]]) -> int:
     added_calories = [sum(group) for group in chunks_of_calories]
-    return max(added_calories)
+    return sum(sorted(added_calories, reverse=True)[:3])
 
 
 def generate_chunks_of_lines(raw_lines: List[Any]) -> Generator[List[Any], None, None]:
@@ -14,9 +14,9 @@ def generate_chunks_of_lines(raw_lines: List[Any]) -> Generator[List[Any], None,
         yield lines
 
 
-def test_get_most_calories():
+def test_get_three_most_calories():
     assert (
-        get_most_calories(
+        get_three_most_calories(
             [
                 [
                     1000,
@@ -40,7 +40,7 @@ def test_get_most_calories():
                 ],
             ]
         )
-        == 24000
+        == 45000
     )
 
 
@@ -55,4 +55,4 @@ if __name__ == "__main__":
         raw_lines = [line.rstrip("\n") for line in f]
     lines = [int(line) if line else "" for line in raw_lines]
     chunks_of_calories = generate_chunks_of_lines(lines)
-    print(get_most_calories(chunks_of_calories))
+    print(get_three_most_calories(chunks_of_calories))
