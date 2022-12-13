@@ -32,7 +32,7 @@ jobs:
           black --check .
       - name: Check types with mypy
         run: |
-          mypy test_day*
+          mypy test_*
       - name: Test with pytest
         run: |
           pytest
