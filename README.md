@@ -14,7 +14,7 @@ Run `pytest` to run all tests.
 Run one exercice to see the real solution, for example:
 
 ```
-python test_day1/test_ex1.py
+python test_day01/test_ex01.py
 ```
 
 ## Progress
@@ -26,7 +26,7 @@ python test_day1/test_ex1.py
 | ✅ [Day 3: Rucksack Reorganization](https://github.com/anxodio/aoc2022/tree/main/test_day03/exercise.txt) | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day03/test_ex05.py) | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day03/test_ex06.py) |
 | ✅ [Day 4: Camp Cleanup](https://github.com/anxodio/aoc2022/tree/main/test_day04/exercise.txt)            | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day04/test_ex07.py) | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day04/test_ex08.py) |
 | ✅ [Day 5: Supply Stacks](https://github.com/anxodio/aoc2022/tree/main/test_day05/exercise.txt)           | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day05/test_ex09.py) | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day05/test_ex10.py) |
-| [Day 6: 🚧 ]()                                                                                            |                                                                            |                                                                            |
+| ✅ [Day 6: Tuning Trouble](https://github.com/anxodio/aoc2022/tree/main/test_day07/exercise.txt)          | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day06/test_ex11.py) | [🌟](https://github.com/anxodio/aoc2022/tree/main/test_day06/test_ex12.py) |
 | [Day 7: 🚧 ]()                                                                                            |                                                                            |                                                                            |
 | [Day 8: 🚧 ]()                                                                                            |                                                                            |                                                                            |
 | [Day 9: 🚧 ]()                                                                                            |                                                                            |                                                                            |
